@@ -20,15 +20,12 @@ function computerPlay() {
   };
   return computerSelection;
 }
-// console.log(computerPlay())
-
 
 // Asks player their game throw with a window prompt
 function playerChoice() {
   let playerSelection = prompt('Rock, Paper, Scissors, Shoot! What do you throw? Please type \'Rock\', \'Paper\', or \'Scissors\'')
   return playerSelection;
 }
-// console.log(playerChoice())
 
 // takes two params, player's and computers and determines winner
 function playRound(playerSelection, computerSelection) {
@@ -78,7 +75,6 @@ function playRound(playerSelection, computerSelection) {
 
   return roundDeclaration;
 }
-
 
 // use previous playRound() inside this function to play a 5 round game that keeps score and reports a winner and loser at the end
 function game() {
